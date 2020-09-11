@@ -1,6 +1,6 @@
 
 # AndroidShowcaseView
-A cool looking Showcase for Android for app feature's introduction
+A cool looking Showcase for app feature's introduction in android with latest Android X code 
 
 
 This library is heavily inspired by the original [ShowcaseView library][1].
@@ -32,12 +32,12 @@ Then add the dependency to your module's build.gradle:
 
 /app/build.gradle
 ```groovy
-compile 'com.github.ashvinstech:AndroidShowcaseView:1.0'
+implementation 'com.github.ashvinstech:AndroidShowcaseView:1.0'
 ```
 
 NOTE: Some people have mentioned that they needed to add the @aar suffix to get it to resolve from JitPack:
 ```groovy
-compile 'com.github.ashvinstech:AndroidShowcaseView:1.0@aar'
+implementation 'com.github.ashvinstech:AndroidShowcaseView:1.0@aar'
 ```
 
 # How to use
@@ -110,6 +110,3 @@ Publishing libraries to Maven is a chore that takes time and effort. Jitpack.io 
 [3]: https://code.google.com/p/android-flowtextview/
 [4]: https://img.shields.io/github/release/deano2390/MaterialShowcaseView.svg?label=JitPack
 [5]: https://jitpack.io/#deano2390/MaterialShowcaseView
-[6]: https://medium.com/@yashgirdhar/android-material-showcase-view-part-1-22abd5c65b85
-[7]: https://1bucketlist.blogspot.com/2017/03/android-material-showcase-view-1.html
-[8]: https://blog.fossasia.org/tag/material-showcase-view/
