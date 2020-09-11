@@ -86,7 +86,7 @@ Publishing libraries to Maven is a chore that takes time and effort. Jitpack.io 
 # License
 -------
 
-    Copyright 2015 Dean Wild
+    Copyright 2020 Ashvin Bhagat
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
