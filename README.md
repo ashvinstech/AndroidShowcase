@@ -31,12 +31,12 @@ Then add the dependency to your module's build.gradle:
 
 /app/build.gradle
 ```groovy
-implementation 'com.github.ashvinstech:AndroidShowcaseView:1.0'
+implementation 'com.github.ashvinstech:AndroidShowcase:1.0'
 ```
 
 NOTE: Some people have mentioned that they needed to add the @aar suffix to get it to resolve from JitPack:
 ```groovy
-implementation 'com.github.ashvinstech:AndroidShowcaseView:1.0@aar'
+implementation 'com.github.ashvinstech:AndroidShowcase:1.0@aar'
 ```
 
 # How to use
