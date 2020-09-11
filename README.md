@@ -9,7 +9,7 @@ This library is heavily inspired by the original [ShowcaseView library][1].
 ![Logo](https://raw.githubusercontent.com/ashvinstech/AndroidShowcase/master/sample/src/main/res/drawable-xxhdpi/AndroidShowcase.jpeg)
 
 
-![Animation][2]
+![Logo](https://raw.githubusercontent.com/ashvinstech/AndroidShowcase/master/sample/src/main/res/drawable-xxhdpi/AndroidShowcase2.jpeg)
 
 # Gradle
 --------
