@@ -1,5 +1,5 @@
 
-# AndroidShowcaseView
+# AndroidShowcase
 A cool looking Showcase for app feature's introduction in android with latest Android X code 
 
 
