@@ -6,7 +6,7 @@ A cool looking Showcase for Android for app feature's introduction
 This library is heavily inspired by the original [ShowcaseView library][1].
 
 
-![Logo](http://i.imgur.com/QIMYRJh.png)
+![Logo](https://raw.githubusercontent.com/ashvinstech/AndroidShowcase/master/sample/src/main/res/drawable-xxhdpi/AndroidShowcase.jpeg)
 
 
 ![Animation][2]
