@@ -1,12 +1,10 @@
-*Looking for collaborators to help maintain this library, drop me a line at me@deanwild.co.uk if you want to help.*
 
-# MaterialShowcaseView
-A Material Design themed ShowcaseView for Android
+# AndroidShowcaseView
+A cool looking Showcase for Android for app feature's introduction
 
 
 This library is heavily inspired by the original [ShowcaseView library][1].
 
-Since Google introduced the Material design philosophy I have seen quite a few apps with a nice clean, flat showcase view (the Youtube app is a good example). The only library out there however is the [original one][1]. This was a great library for a long time but the theming is now looking a bit dated.
 
 ![Logo](http://i.imgur.com/QIMYRJh.png)
 
@@ -34,12 +32,12 @@ Then add the dependency to your module's build.gradle:
 
 /app/build.gradle
 ```groovy
-compile 'com.github.deano2390:MaterialShowcaseView:1.3.4'
+compile 'com.github.ashvinstech:AndroidShowcaseView:1.0'
 ```
 
 NOTE: Some people have mentioned that they needed to add the @aar suffix to get it to resolve from JitPack:
 ```groovy
-compile 'com.github.deano2390:MaterialShowcaseView:1.3.4@aar'
+compile 'com.github.ashvinstech:AndroidShowcaseView:1.0@aar'
 ```
 
 # How to use
@@ -49,7 +47,7 @@ This is the basic usage of a single showcase view, you should check out the samp
 ```java
 
 	// single example
-	new MaterialShowcaseView.Builder(this)
+	new AndrioidShowcaseView.Builder(this)
 		.setTarget(mButtonShow)
 		.setDismissText("GOT IT")
 		.setContentText("This is some amazing feature you should know about")
@@ -64,7 +62,7 @@ This is the basic usage of a single showcase view, you should check out the samp
 	ShowcaseConfig config = new ShowcaseConfig();
 	config.setDelay(500); // half second between each showcase view
 
-	MaterialShowcaseSequence sequence = new MaterialShowcaseSequence(this, SHOWCASE_ID);
+	AndroidShowcaseSequence sequence = new AndroidShowcaseSequence(this, SHOWCASE_ID);
 
 	sequence.setConfig(config);
 
@@ -84,22 +82,6 @@ This is the basic usage of a single showcase view, you should check out the samp
 # Why Jitpack
 ------------
 Publishing libraries to Maven is a chore that takes time and effort. Jitpack.io allows me to release without ever leaving GitHub so I can release easily and more often.
-
-# Apps using MaterialShowcaseView
----------------------------------
-
-  * [Say It! - English Learning](https://play.google.com/store/apps/details?id=com.cesarsk.say_it) : An Android App aimed to improve your English Pronunciation. 
-    * [Github Page](https://github.com/cesarsk/say_it)
-    
-  * [Queskr](https://play.google.com/store/apps/details?id=com.queskr.www.queskrandroidapp) : Social Q&A at your fingertips
-
-# Learning Resources
-[https://medium.com/@yashgirdhar/android-material-showcase-view-part-1-22abd5c65b85][6]
-
-[https://1bucketlist.blogspot.com/2017/03/android-material-showcase-view-1.html][7]
-
-[https://blog.fossasia.org/tag/material-showcase-view/][8]
-
 
 
 # License
